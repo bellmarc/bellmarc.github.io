@@ -18,8 +18,19 @@
     
   <style>
     
-    element.style {
+    section {
       display: block;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .center-block{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .section-intro{
+      overflow-wrap: break-word;
+      word-wrap: break-word;
     }
     .section__animation {
     position: absolute;
@@ -41,12 +52,18 @@
   <body>
     <header> 
   <div>
+ <section class="section section-intro center-block">
+<div class="section-intro-wrap wrap--3-of-5 center-block--after-large">
+<div class="lc lc--no-max spacing--double">
 <div class="section__heading-wrap">
 <h1 class="section__heading font--secondary--xxl">
 Welcome. </h1>
-<div class="section__animation font--secondary--xxl js-flip-text" aria-hidden="true" style=display: block;">
+<div class="section__animation font--secondary--xxl js-flip-text" aria-hidden="true" style="display: block;">
 Welcome. </div>
 </div>
+</div>
+</div>
+</section>
     <hr>
       </body>
 </html>
